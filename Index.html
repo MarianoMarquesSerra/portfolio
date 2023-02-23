@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+    <script src="https://kit.fontawesome.com/e86ab382de.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <title>ConfBsAs</title>
+</head>
+<body>
+    <div class="container-fluid bg-dark" style="position:fixed; z-index: 1; background-color: black;">
+        <!-- BARRA NAVEGACIÓN -->
+              <div class="bg-dark">
+                  <nav class="navbar navbar-expand-md navbar-dark bg-dark border-3 border-bottom border-dark">
+                        <div class="container-fluid">
+                          <div class="ContenedorLogo">
+                            <div>
+                              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="48" height="48" viewBox="0 0 24 24" stroke-width="2.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                <polyline points="7 8 3 12 7 16" />
+                                <polyline points="17 8 21 12 17 16" />
+                                <line x1="14" y1="4" x2="10" y2="20" />
+                              </svg>
+                            </div>
+                          </div>  
+                            <button type="button" class="MenuNavegacion navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-expanded="false">
+                                    <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+      
+                        <div id="MenuNavegacion" class="navbar-collapse collapse">
+                                <ul class="navbar-nav ms-3">
+                                      <li class="navbar-brand mr-0 text-secondary">
+                                          <a class="nav-link active" href="#Home">Home</a>
+                                      </li>
+                                      <li class="navbar-brand mr-0 text-secondary">
+                                          <a class="nav-link" href="#acercademi">Acerca de mi</a>
+                                      </li>
+                                      <li class="navbar-brand mr-0 text-secondary">
+                                          <a class="nav-link" href="#skills">Skills</a>
+                                      </li>
+                                      <li class="navbar-brand mr-0 text-secondary">
+                                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                                      </li>
+                                      <li class="navbar-brand mr-0">
+                                        <a class="nav-link text-success" href="#contacto">Contacto</a>
+                                      </li>
+                                </ul>
+                        </div>
+                  </nav>
+                </div>
+    </div>
+
+  
+    <div class="Home" id="Home">
+      <div class="contenedorimagenPerfil">
+        <img src="./Images/FotoPerfil.jpg" alt="" class="imagePerfil">
+      </div>
+      <div class="tituloPerfil">
+        <div>
+          <h1>Mariano Marques Serra</h1>
+          <h2>Desarrollador Frontend</h2>
+        </div>
+      </div>
+    </div>
+
+    
+  <section id="acercademi">
+    <div class="card mb-3" style="border: none;">
+      <div class="card-body">
+        <h1 class="card-title" style="padding: 20px;">Acerca de mi</h1>
+        <p class="card-text" style="padding: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nobis provident quam consectetur aut quisquam voluptas maxime delectus doloribus. Dolore aliquid eligendi labore ipsa vitae adipisci repellat autem numquam delectus.
+        Consectetur voluptas at quos eum tempore sapiente aliquam doloremque, fugiat laudantium modi voluptatem culpa dolore id. Perferendis deserunt numquam tempora itaque consequatur facilis animi neque. Sunt voluptates minima mollitia culpa!
+        Necessitatibus similique excepturi non quos et maiores a hic accusamus, nisi ipsa. Maxime, aut fuga placeat recusandae voluptates eum omnis harum aperiam veritatis a fugit exercitationem sequi debitis velit nam.
+        Praesentium vero alias inventore laboriosam, nulla necessitatibus adipisci? Libero accusamus incidunt, magni repellat ullam nostrum assumenda consequuntur ipsam expedita autem minus! Obcaecati, veritatis deserunt. Ipsam debitis voluptatibus laborum quis natus?
+        Expedita, at ipsa? Cumque earum vitae sit est quidem saepe soluta facilis perferendis numquam voluptate, qui nemo ab blanditiis, pariatur obcaecati minus quis, consequatur ratione? Reprehenderit vel eligendi blanditiis animi.</p>
+      </div>
+      <div class="botonCV">
+        <a class="decargarCV" href=""><i class="fa-solid fa-file-arrow-down"></i> Descargar CV</a>
+      </div>
+    </div>
+
+    <section id="skills">
+      <div class="skills" id="skills">
+        <h3>Skills</h3>
+        <div class="contenedorskills text-center">
+            <div class="skillHtml">
+              <img src="./Images/Html.png" alt="imagenHtml" style="width: 100px;">
+              <p>90%</p>
+            </div>
+            <div class="skillCss text-center">
+              <img src="./Images/css.png" alt="imagenCss" style="width: 100px;">
+              <p>80%</p>
+            </div>
+            <div class="skillJavasript text-center">
+              <img src="./Images/Javascript.png" alt="imagenJavascript" style="width: 100px;">
+              <p>70%</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contenedorskills">
+      <div class="contenedorskills">
+          <div class="skillAngular text-center">
+            <img src="./Images/Angular.png" alt="imagenAngular" style="width: 100px;">
+            <p>70%</p>
+          </div>
+          <div class="skillBootstrap text-center">
+            <img src="./Images/bootstrap.png" alt="imagenBootstrap" style="width: 100px;">
+            <p>60%</p>
+          </div>
+          <div class="skillGithub text-center">
+            <img src="./Images/GitHub.png" alt="imagenGithub" style="width: 100px;">
+            <p>80%</p>
+          </div>
+      </div>
+    </section>
+    </div>
+  </section>
+
+  <section id="proyectos" style="position:relative; padding-top: 60px;">
+    <div class="contenedorProyectos">
+      <h3>Proyectos</h3>
+      <div class="container">
+        <div class="container-fluid ContendorOradores d-flex justify-content-center">
+          <div class="row">
+            <div class="col-12 col-md-4 px-2 py-1 g-5">
+                  <div class="card potfolio_item" style="display: flex; width: auto;">
+                    <img id="imgProyecto" src="./Images/CodoaCodo.JPG" class="card-img-top" alt="FotoProyectoCodoaCodo">
+
+                    <div class="proyectoDescripcion text-center">
+                      <h3 class="tituloProyecto">Codo a Codo</h3>
+                      <p class="proyectoTecnologias">
+                        Web: Html, CSS, Javascript, Bootstrap.
+                      </p>
+                      <div class="buttons__container">
+                        <a
+                          class="button"
+                          href="https://proyectodecodoacodo.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fas fa-globe-americas"></i> Website
+                        </a>
+                        <a
+                          class="button"
+                          href="https://github.com/MarianoMarquesSerra/ConfBsAs.git"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fab fa-github"></i> Repository
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+            </div>
+            <div class="col-md-4 col-xs-6 px-2 py-1 g-5">        
+              <div class="card potfolio_item" style="width: auto;">
+                <img id="imgProyecto" src="./Images/AI.JPG" class="card-img-top" alt="FotoProyectoAI">
+              
+                <div class="proyectoDescripcion text-center">
+                  <h3 class="tituloProyecto">Blog IA</h3>
+                  <p class="proyectoTecnologias">
+                    Blog: Html, CSS, Javascript.
+                  </p>
+                  <div class="buttons__container">
+                    <a
+                      class="button"
+                      href="https://bloginteligenciaartificial.netlify.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fas fa-globe-americas"></i> Website
+                    </a>
+                    <a
+                      class="button"
+                      href="#"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i> Repository
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+            </div>
+            <div class="col-12 col-md-4 px-2 py-1 g-5">
+                <div class="card-block">
+                  <div class="card potfolio_item" style="width: auto;">
+                    <img id="imgProyecto" src="./Images/Mercadolibre.JPG" class="card-img-top" alt="FotoProyectoKaos">
+                  
+                    <div class="proyectoDescripcion text-center">
+                      <h3 class="tituloProyecto">Mercadolibre</h3>
+                      <p class="proyectoTecnologias">
+                        Web: React.
+                      </p>
+                      <div class="buttons__container">
+                        <a
+                          class="button"
+                          href="https://mercadolibreproyecto.netlify.app/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fas fa-globe-americas"></i> Website
+                        </a>
+                        <a
+                          class="button"
+                          href="https://github.com/MarianoMarquesSerra/ProyecyoMercadoLibre.git"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          <i class="fab fa-github"></i> Repository
+                        </a>
+                      </div>
+                    </div>
+                  
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-6 px-2 py-1 g-5">        
+              <div class="card potfolio_item" style="width: auto;">
+                <img id="imgProyecto" src="./Images/PokeApp.JPG" class="card-img-top" alt="FotoProyectoAI">
+              
+                <div class="proyectoDescripcion text-center">
+                  <h3 class="tituloProyecto">Pokemon App</h3>
+                  <p class="proyectoTecnologias">
+                    App: React, PokeApi.
+                  </p>
+                  <div class="buttons__container">
+                    <a
+                      class="button"
+                      href="https://pokemoncardsapp.netlify.app/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fas fa-globe-americas"></i> Website
+                    </a>
+                    <a
+                      class="button"
+                      href="https://github.com/MarianoMarquesSerra/pokemonapp.git"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <i class="fab fa-github"></i> Repository
+                    </a>
+                  </div>
+                </div>
+              
+              </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="contenedorContacto" style="position: relative; padding-top: 60px;">
+      <h3>Contacto</h3>
+      <div class="contenedorIconos">
+        <div class="mail">
+          <a href="mailto:marianomarquesserra@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-envelope" style="font-size: 50px;"></i>
+            <p>Mail</p>
+          </a>
+        </div>
+        <div class="linkedin">
+          <a href="https://www.linkedin.com/in/mariano-marques-serra-4a5a1959/" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin" style="font-size: 50px;"></i>
+            <p>Linkedin</p>
+          </a>
+        </div>
+        <div class="github">
+          <a href="https://github.com/MarianoMarquesSerra" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github" style="font-size: 50px;"></i>
+            <p>GitHub</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section id="contacto">
+
+  <footer class="container-fluid"  style="margin-top: 80px;padding: 15px;">
+  
+    <div class="row m-auto">
+        <div class="m-auto text-center w-100">
+            <p>Copyright © 2022. @marianomarquesserra</p>
+            <p>All Right Reverved</p>
+        </div>
+    </div>
+
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="./JS/App.js"></script>
+</body>
+</html>
