@@ -49,7 +49,7 @@ html {
   display: flex;
   position: relative;
   color: white;
-  width: 500px;
+  width: 600px;
   top: 270px;
   left: 100px;
   text-align: center;
@@ -167,15 +167,6 @@ html {
     top: 100px;
     float: none;
   }
-  .tituloPerfil{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    margin: auto;
-    color: white;
-    top: 130px;
-    left: 0;
-  }
 }
 
 section{
@@ -186,9 +177,20 @@ footer{
   padding-top: 40px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 1090px) {
   .textoCarousel {
     font-size: 0.7rem;
+  }
+  .tituloPerfil{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    width: 500px;
+    top: 130px;
+    left: 0;
+    text-align: center;
   }
 }
 
@@ -203,5 +205,8 @@ footer{
   .itemFooter {
     margin-bottom: 5px !important;
     padding: 5px !important;
+  }
+  .ContenedorPrincipal{
+    width: 500px;
   }
 }

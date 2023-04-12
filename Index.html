@@ -11,7 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <title>ConfBsAs</title>
 </head>
-<body>
+<body class="ContenedorPrincipal">
     <div class="container-fluid bg-dark" style="position:fixed; z-index: 1; background-color: black;">
         <!-- BARRA NAVEGACIÓN -->
               <div class="bg-dark">
@@ -27,12 +27,12 @@
                               </svg>
                             </div>
                           </div>  
-                            <button type="button" class="MenuNavegacion navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-expanded="false">
+                            <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#MenuNavegacion" aria-expanded="false">
                                     <span class="navbar-toggler-icon"></span>
                             </button>
                         </div>
       
-                        <div id="MenuNavegacion" class="navbar-collapse collapse">
+                          <div id="MenuNavegacion" class="navbar-collapse collapse">
                                 <ul class="navbar-nav ms-3">
                                       <li class="navbar-brand mr-0 text-secondary">
                                           <a class="nav-link active" href="#Home">Home</a>
@@ -50,7 +50,7 @@
                                         <a class="nav-link text-success" href="#contacto">Contacto</a>
                                       </li>
                                 </ul>
-                        </div>
+                          </div>
                   </nav>
                 </div>
     </div>
@@ -61,9 +61,9 @@
         <img src="./Images/FotoPerfil.jpg" alt="" class="imagePerfil">
       </div>
       <div class="tituloPerfil">
-        <div>
-          <h1>Mariano Marques Serra</h1>
-          <h2>Desarrollador Frontend</h2>
+        <div style="margin:0px auto;">
+          <h1 style="font-size: 4vw;">Mariano Marques Serra</h1>
+          <h2 style="font-size: 2vw;">Desarrollador Frontend</h2>
         </div>
       </div>
     </div>
@@ -73,7 +73,7 @@
     <div class="card mb-3" style="border: none;">
       <div class="card-body">
         <h1 class="card-title" style="padding: 20px;">Acerca de mi</h1>
-          <p class="card-text" style="padding: 20px;font-size: 22px;"><span>Hola!,</span><br> Me llamo Marinao Marques Serra soy técnico en computación con más de 20 años de experiencia en el area de soporte, estoy estudiando la carrera de Licenciatura en gestión de tecnología informática en la UAI y desde hace dos años empece a interesarme por el desarrollo web, especialmente en la parte Front End y quiero enfocar mi carrera profesional hacia este mundo que cada día me apasiona más.</p>
+          <p class="card-text" style="padding: 20px;font-size: 22px;"><span>Hola!,</span><br> Me llamo Mariano, soy técnico en computación con más de 20 años de experiencia en el area de soporte, estoy estudiando la carrera de Licenciatura en gestión de tecnología informática en la UAI y desde hace dos años empece a interesarme por el desarrollo web, especialmente en la parte Front End y quiero enfocar mi carrera profesional hacia este mundo que cada día me apasiona más.</p>
       </div>
       <div class="botonCV">
         <a download="CV-Mariano Marques Serra" class="decargarCV" href="CV - Mariano Marques Serra.pdf"><i class="fa-solid fa-file-arrow-down"></i> Descargar CV</a>
@@ -84,34 +84,42 @@
       <div class="skills" id="skills">
         <h3>Skills</h3>
         <div class="contenedorskills text-center">
-            <div class="skillHtml">
+            <div class="text-center">
               <img src="./Images/Html.png" alt="imagenHtml" style="width: 100px;">
-              <p>90%</p>
+              <p>HTML</p>
             </div>
-            <div class="skillCss text-center">
+            <div class="text-center">
               <img src="./Images/css.png" alt="imagenCss" style="width: 100px;">
-              <p>80%</p>
+              <p>CSS</p>
             </div>
-            <div class="skillJavasript text-center">
+            <div class="text-center">
               <img src="./Images/Javascript.png" alt="imagenJavascript" style="width: 100px;">
-              <p>70%</p>
+              <p>Javascript</p>
+            </div>
+            <div class="text-center">
+              <img src="./Images/Typescript.png" alt="imagenJavascript" style="width: 100px;">
+              <p>TypeScript</p>
             </div>
         </div>
     </section>
 
     <section id="contenedorskills">
       <div class="contenedorskills">
-          <div class="skillAngular text-center">
+          <div class="text-center">
             <img src="./Images/Angular.png" alt="imagenAngular" style="width: 100px;">
-            <p>70%</p>
+            <p>Angular</p>
           </div>
-          <div class="skillBootstrap text-center">
+          <div class="text-center">
             <img src="./Images/bootstrap.png" alt="imagenBootstrap" style="width: 100px;">
-            <p>60%</p>
+            <p>Bootstrap</p>
           </div>
-          <div class="skillGithub text-center">
+          <div class="text-center">
+            <img src="./Images/Sass.png" alt="imagenBootstrap" style="width: 100px;">
+            <p>Sass</p>
+          </div>
+          <div class="text-center">
             <img src="./Images/GitHub.png" alt="imagenGithub" style="width: 100px;">
-            <p>80%</p>
+            <p>GitHub</p>
           </div>
       </div>
     </section>
